@@ -1,9 +1,9 @@
-#Fraud Detection Prediction App
+# Fraud Detection Prediction App
 
 An end-to-end Machine Learning Fraud Detection System built with Python and deployed using Streamlit.
 The model was trained on a financial transaction dataset containing over 6 million records and achieved 94% accuracy.
 
-##Project Overview
+## Project Overview
 
 This project focuses on detecting fraudulent financial transactions using machine learning. It demonstrates the complete data science workflow:
 
@@ -21,7 +21,7 @@ Model deployment with Streamlit
 
 The final output is an interactive web application that allows users to input transaction details and receive real-time fraud predictions.
 
-##Dataset Summary
+## Dataset Summary
 
 6+ million transaction records
 
@@ -37,9 +37,9 @@ Payment
 
 Fraud cases represent only 0.13% of total transactions, creating a significant class imbalance challenge.
 
-##Exploratory Data Analysis
+## Exploratory Data Analysis
 
-###Key insights from the analysis:
+### Key insights from the analysis:
 
 Cash-out and transfer transactions had the highest fraud rates.
 
@@ -53,11 +53,11 @@ Correlation analysis revealed relationships between transaction amount and accou
 
 Data visualization was performed using Matplotlib and Seaborn to better understand fraud patterns.
 
-#Machine Learning Model
+# Machine Learning Model
 
 Algorithm Used: Logistic Regression
 
-##Preprocessing Steps:
+## Preprocessing Steps:
 
 Train-Test Split
 
@@ -67,7 +67,7 @@ Pipeline integration for clean workflow
 
 Class imbalance handled using class_weight="balanced"
 
-##Model Performance:
+## Model Performance:
 
 94% Accuracy
 
@@ -79,9 +79,9 @@ Streamlit Web Application
 
 The project includes an interactive Streamlit web application.
 
-###Features:
+### Features:
 
-####User inputs for:
+#### User inputs for:
 
 Transaction type
 
@@ -99,7 +99,7 @@ Real-time fraud prediction
 
 Simple and intuitive user interface
 
-#Technologies Used
+# Technologies Used
 
 Python
 
